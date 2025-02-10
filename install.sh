@@ -326,7 +326,7 @@ update_script() {
   print_banner
   echo -e "${GREEN}=== Обновление скрипта ===${RESET}"
   # Замените URL ниже на актуальный адрес вашего скрипта на GitHub
-  SCRIPT_URL="https://raw.githubusercontent.com/yourusername/yourrepo/main/manager.sh"
+  SCRIPT_URL="https://raw.githubusercontent.com/k2wGG/multichome-vps/refs/heads/main/install.sh"
   cp "$0" "$0.bak"
   echo -e "${GREEN}Загружаем обновлённую версию скрипта...${RESET}"
   curl -fsSL "$SCRIPT_URL" -o "$0"
